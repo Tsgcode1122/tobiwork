@@ -1,0 +1,21 @@
+.tobi img {
+  max-width: 100%;
+}
+.tsgan {
+  font-size: 1rem;
+  color: #6f57a5;
+  animation: spreadAnimation 1s ease-in-out; /* Apply the keyframe animation */
+}
+
+@keyframes spreadAnimation {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 300px; /* Set the final width after spreading */
+  }
+}
+.icon img {
+  width: 40px;
+  height: 40px;
+}
